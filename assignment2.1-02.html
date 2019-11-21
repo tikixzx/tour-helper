@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <!-- saved from url=(0049)https://getbootstrap.com/docs/4.0/examples/cover/ -->
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
   
     
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <!--  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> -->
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="https://getbootstrap.com/docs/4.0/assets/img/favicons/favicon.ico">
@@ -18,13 +20,20 @@
 
     <!-- Custom styles for this template -->
     <link href="./Cover Template for Bootstrap-01_files/cover-02.css" rel="stylesheet">
-    <link rel="stylesheet" href="cover-02.css">
+    <!-- <link rel="stylesheet" href="cover-02.css"> -->
+    <!-- mapbox gl js  -->
+    <!-- <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.50.0/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.50.0/mapbox-gl.css' rel='stylesheet' /> -->
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v1.5.0/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.5.0/mapbox-gl.css' rel='stylesheet' />
+<!-- <link rel="stylesheet" href="map-01.css"> -->
   </head>
 
+  
+
   <body class="text-center">
-
-
-    <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
+ <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
       <header class="masthead mb-auto">
         <div class="inner">
           <nav class="nav nav-masthead justify-content-center">
@@ -32,13 +41,19 @@
             <a class="nav-link active" href="./assignment2.1-02.html">Maps</a>
             <a class="nav-link" href="./assignment2.1-0301.html">Favorites</a>
           </nav>
-        </div>
+        </div> 
+  
       </header>
+
+<!--  <body> -->
+  <div id="map"></div>
+  
+
+<!-- </body> -->
   
 <div class="choice">
   <ul class="h-nav">
-   <a class="list-group-item active" href="./assignment2.1-02.html">Public Park</a>
-   
+   <a class="list-group-item" href="./assignment2.1-02.html">Public Park</a>
    <a class="list-group-item" href="./assignment2.1-02.html">Amusement Park</a>
   <a class="list-group-item" href="./assignment2.1-02.html">Historic Landmark</a>
   <a class="list-group-item" href="./assignment2.1-02.html">Museum</a>
@@ -54,15 +69,18 @@
   </ion-icon>
 </div>
      
-<div class="map">
-  <style>
-body {
+<!-- <div class="map"> -->
+  <!-- <style>
+/*body {
   background-image: url('ref map-01.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;  
   background-size: cover;
-}
-</style>
+ 
+</body>*/
+  /*<script src="map.js"></script>
+<link rel="stylesheet" href="map.css">*/
+</style> -->
 
       <main role="main" class="inner cover">
                <!-- <p class="lead"> -->
@@ -104,4 +122,6 @@ body {
     <script src="script.js"></script>
   
 
-</body></html>
+</body>
+   <script src="map.js"></script>
+</html>
