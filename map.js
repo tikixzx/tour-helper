@@ -177,7 +177,7 @@ style: 'mapbox://styles/tikixzx/ck22ttetacdph1cqp1obja4xk'
       popup.setLngLat(stops[0].geometry.coordinates);
 
       // Set the contents of the popup window
-      popup.setHTML('<h3>cafe:' + stops[0].properties.stop_id + '</h3><p>' + stops[0].properties.stop_name + '</p>');
+      popup.setHTML('<h3>License Numeber:' + stops[0].properties.LICENSE_NBR + '</h3><p>' + stops[0].properties.BUSINESS_NAME + '</p>');
             // stops[0].properties.stop_id will become the title of the popup (<h3> element)
             // stops[0].properties.stop_name will become the body of the popup
 
