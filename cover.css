@@ -66,6 +66,13 @@ body {
 /*
  * Header
  */
+
+ .navbar-brand{
+  position:absolute;
+  left:0;
+ }
+
+
 .masthead {
   margin-bottom: 2rem;
 }
@@ -102,7 +109,7 @@ body {
   }
   .nav-masthead {
     float: right;
-  }
+    }
 }
 
 

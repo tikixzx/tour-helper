@@ -52,7 +52,39 @@ body {
  /* margin-bottom:50%;*/
    opacity: 1
 
+#layers-control {
+        text-align: center;
+        z-index: 1;
+    }
 
+    #layers-control h3 { 
+        line-height: initial;
+        font-size: unset;
+    }
+
+    #layers-control a {
+        font-size: 12px;
+        font-weight: 500;
+        color: #00394d;
+        display: block;
+        margin: 0 0 5px 0;
+        padding: 0;
+        padding: 10px;
+        text-decoration: none;
+        text-align: center;
+        background-color: #ccc;
+    }
+
+    #layers-control a.active {
+        background-color: #ffd000;
+    }
+
+    #layers-control a:hover {
+        background-color: #f00;
+    }
+    #layers-control a.active:hover {
+        background: #f00;
+    }
 
 }
 .cover-container {
